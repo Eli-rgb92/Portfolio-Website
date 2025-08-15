@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal portfolio showcasing web development projects and skills">
+    <title>Portfolio | Developer & Designer</title>
+    
+    <!-- Preconnect to Google Fonts for performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="./style.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+</head>
+<body>
+    <!-- HEADER SECTION -->
+    <header class="header" role="banner">
+        <nav class="nav" role="navigation" aria-label="Main navigation">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <a href="index.html" aria-label="Home">
+                        <span class="logo-text">Portfolio</span>
+                    </a>
+                </div>
+                
+                <button class="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="nav-menu">
+                    <span class="hamburger"></span>
+                </button>
+                
+                <ul class="nav-menu" id="nav-menu" role="menubar">
+                    <li role="none">
+                        <a href="index.html" class="nav-link active" role="menuitem" aria-current="page">Home</a>
+                    </li>
+                    <li role="none">
+                        <a href="#about" class="nav-link" role="menuitem">About</a>
+                    </li>
+                    <li role="none">
+                        <a href="#projects" class="nav-link" role="menuitem">Projects</a>
+                    </li>
+                    <li role="none">
+                        <a href="contact.html" class="nav-link" role="menuitem">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- MAIN CONTENT -->
+    <main class="main" role="main">
+        <!-- HERO SECTION -->
+        <section class="hero" id="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1 class="hero-title">
+                        <span class="hero-greeting">Hello, I'm</span>
+                        <span class="hero-name">Eli Hull</span>
+                        <span class="hero-tagline">Full-Stack Developer</span>
+                    </h1>
+                    <p class="hero-description">
+                        Crafting digital experiences with clean code and creative design. 
+                    </p>
+                    <div class="hero-actions">
+                        <a href="#projects" class="btn btn-primary" aria-label="View my projects">
+                            View Projects
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="hero-image-placeholder">
+                        <div class="placeholder-content">
+                            <span class="placeholder-text">Profile Image</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ABOUT SECTION -->
+        <section class="about" id="about">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>
+                            I'm a passionate developer with a love for creating intuitive and engaging digital experiences. 
+                            With expertise in modern web technologies, I focus on building scalable solutions that make a difference.
+                        </p>
+                    </div>
+                    <div class="about-image">
+                        <div class="about-image-placeholder">
+                            <div class="placeholder-content">
+                                <span class="placeholder-text">About Image</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PROJECTS SECTION -->
+        <section class="projects" id="projects">
+            <div class="container">
+                <h2 class="section-title">Featured Projects</h2>
+                <div class="projects-grid">
+                    <!-- PROJECT CARD 1 -->
+                    <article class="project-card" role="article">
+                        <div class="project-image">
+                            <div class="project-image-placeholder">
+                                <img src="/images/Screenshot_15-8-2025_155915_github.com.jpeg" alt="The code from project 1">
+                                <div class="placeholder-content">
+                                    <span class="placeholder-text">Project 1</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">RPG Quest Inspirational Generator</h3>
+                            <p class="project-description">
+                                A whimsical JavaScript program that generates random RPG quest prompts infused with uplifting, story-driven inspiration.
+                                Every run delivers a unique blend of a hero, a challenge, and a motivational line — perfect for sparking creativity in tabletop RPG sessions, writing, or game design.
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">JavaScript</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/Eli-rgb92/RPG-Quote-Generator#" class="project-link" aria-label="View source code">View code on Github</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- PROJECT CARD 2 -->
+                    <article class="project-card" role="article">
+                        <div class="project-image">
+                            <div class="project-image-placeholder">
+                                <img src="/images/Screenshot_15-8-2025_155740_.jpeg" alt="">
+                                <div class="placeholder-content">
+                                    <span class="placeholder-text">Project 2</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Delta Quadrant Financial Command Center</h3>
+                            <p class="project-description">
+                                A Star Trek Voyager-themed comprehensive budgeting application.
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">HTML:5</HTML:5></span>
+                                <span class="tech-tag">CSS3</span>
+                                <span class="tech-tag">JavaScript</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/Eli-rgb92/Voyager-Budgeting" class="project-link" aria-label="View source code">View code on Github</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- PROJECT CARD 3 -->
+                    <!--<article class="project-card" role="article">
+                        <div class="project-image">
+                            <div class="project-image-placeholder">
+                                <div class="placeholder-content">
+                                    <span class="placeholder-text">Project 3</span>
+                                </div>
+                            </div>
+                        </div>
+                       <div class="project-content">
+                            <h3 class="project-title">Project name</h3>
+                            <p class="project-description">
+                                A weather application with location-based forecasts, interactive maps, 
+                                and detailed weather analytics for planning outdoor activities.
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">JavaScript</span>
+                                <span class="tech-tag">Weather API</span>
+                                <span class="tech-tag">HTML5</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="project-link" aria-label="View source code">View code on Github</a>
+                            </div>
+                        </div>
+                    </article>-->
+                </div>
+                <!--<div class="projects-cta">
+                    <a href="projects.html" class="btn btn-primary" aria-label="View all projects">
+                        View All Projects
+                    </a>
+                </div>-->
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER SECTION -->
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3 class="footer-title">Portfolio</h3>
+                    <p class="footer-description">
+                        Building digital experiences that matter. Let's create something amazing together.
+                    </p>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-subtitle">Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="#about" class="footer-link">About</a></li>
+                        <li><a href="#projects" class="footer-link">Projects</a></li>
+                        <li><a href="#skills" class="footer-link">Skills</a></li>
+                        <li><a href="contact.html" class="footer-link">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-subtitle">Connect</h4>
+                    <div class="social-links">
+                        <a href="#" class="social-link" aria-label="GitHub profile">
+                            <span class="social-icon">GitHub</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p class="footer-copyright">
+                    &copy; 2025 Portfolio. All rights reserved.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/script.js"></script>
+</body>
+</html>
