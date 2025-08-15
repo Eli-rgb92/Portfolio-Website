@@ -2,6 +2,9 @@
 
 My portfolio website built with HTML, CSS, and JavaScript featuring a dark gamer theme with neon purple accents.
 
+
+![dark gamer theme with neon purple accents](/images/Screenshot_15-8-2025_161358_.jpeg)
+
 ## 🎨 Features
 
 - **Modern Dark Theme**: Sleek dark design with neon purple accents
